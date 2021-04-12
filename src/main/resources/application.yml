@@ -1,8 +1,11 @@
+server:
+  port: 8080
+
 spring:
   datasource:
-    url: jdbc:postgresql://ec2-54-145-102-149.compute-1.amazonaws.com:5432/d1jpgafv1ja9ut
-    username: pvdymcfqxszour
-    password: a9a04acaa530788ae878bfbefdad80f62fe7a587389c983f771793091c5c9c57
+    url: jdbc:postgresql://localhost:5432/comprador
+    username: admin
+    password: admin
   jpa:
     hibernate:
       ddl-auto: update
